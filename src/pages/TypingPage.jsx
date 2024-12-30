@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "../components/Header";
 import InputLabel from "../components/InputLabel";
-import Button from "../components/Button";
+import Buttons from "../components/Buttons";
 
 export default function TypingPage() {
   return (
     <div>
-      <Header title={"Typing Test"} />
+      <Header title={"Typing Game"} />
       <InputLabel />
-      <Button />
+      <Buttons />
     </div>
   );
 }
